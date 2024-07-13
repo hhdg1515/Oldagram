@@ -1,0 +1,102 @@
+html, body {
+    margin: 0px auto;
+    padding: 0;
+    width: 375px;
+    background-color: #F5F5F5;
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 13px;
+}
+
+/* structure */
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 8px 16px;
+    border-bottom: 1px solid lightgray;
+    align-items: center;
+}
+
+section {
+    background-color: white;
+    margin-bottom: 25px;
+}
+
+/* Head */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin: 0 10px 10px 10px;
+    padding-top: 10px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 7px;
+}
+
+/* Font */
+.name, 
+.likes {
+    font-weight: bold;
+}
+
+.location{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* Image */
+.user-avatar,.avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+}
+
+.logo {
+    width: 100px;
+}
+
+.img {
+    box-sizing: content-box;
+    width: 100%;
+}
+
+/* interaction*/
+.interaction {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+    padding-bottom: 16px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.btn-like,
+.btn-dm,
+.btn-comment {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.comment, .likes {
+    margin-left: 13px;
+    margin-top: 12px;
+}
+
+.btn-like:hover,
+.btn-comment:hover,
+.btn-dm:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
