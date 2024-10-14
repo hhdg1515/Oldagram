@@ -80,23 +80,20 @@ section {
     justify-content: start;
 }
 
-.btn-like,
-.btn-dm,
-.btn-comment {
-    width: 24px;
-    height: 24px;
-    margin-left: 10px;
+.btn img{
+    padding: 1px 1px;
+    margin-left: 13px;
     margin-top: 20px;
+    margin-bottom: 0px;
 }
 
 .comment, .likes {
     margin-left: 13px;
-    margin-top: 12px;
+    margin-top: 8px;
+    margin-bottom: 0px;
 }
 
-.btn-like:hover,
-.btn-comment:hover,
-.btn-dm:hover{
+.btn img:hover {
   cursor: pointer;
   opacity: 0.5;
 }
