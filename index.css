@@ -81,7 +81,8 @@ section {
 }
 
 .btn img{
-    padding: 1px 1px;
+    width:24px;
+    height:24px;
     margin-left: 13px;
     margin-top: 20px;
     margin-bottom: 0px;
